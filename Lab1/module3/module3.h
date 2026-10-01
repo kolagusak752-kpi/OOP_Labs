@@ -1,0 +1,4 @@
+#pragma once
+#include "framework.h"
+INT_PTR CALLBACK OnMsgDialogBack(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam);
+int ShowDialogBack(HINSTANCE hInst, HWND hParent);
