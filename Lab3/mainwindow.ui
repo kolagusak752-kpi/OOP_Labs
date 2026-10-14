@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="styleSheet">
-   <string notr="true">/* ==================== ГОЛОВНЕ МЕНЮ (MenuBar) ==================== */
+   <string notr="true">
 QWidget {
 background-color: rgb(255, 255, 255);
 }
@@ -28,7 +28,7 @@ QMenuBar::item {
     border-radius: 4px;
 }
 
-QMenuBar::item:selected { /* При наведении на пункт меню */
+QMenuBar::item:selected { 
     background-color: #3e3e3e;
 }
 
@@ -36,7 +36,7 @@ QMenuBar::item:pressed {
     background-color: #007acc;
 }
 
-/* Выпадающие списки пунктов меню (QMenu) */
+
 QMenu {
     background-color: #252526;
     color: #ffffff;
@@ -49,26 +49,26 @@ QMenu::item {
     border-radius: 3px;
 }
 
-QMenu::item:selected { /* Наведение на подпункт */
+QMenu::item:selected { 
     background-color: #094771;
     color: #ffffff;
 }
 
-QMenu::separator { /* Черта-разделитель в меню */
+QMenu::separator { 
     height: 1px;
     background: #3d3d3d;
     margin: 4px 6px;
 }
 
-/* ==================== ПАНЕЛЬ ІНСТРУМЕНТІВ (ToolBar) ==================== */
+
 QToolBar {
     background-color: #1e1e1e;
     border-bottom: 1px solid #333333;
     padding: 4px;
-    spacing: 5px; /* Расстояние между кнопками */
+    spacing: 5px; 
 }
 
-/* Кнопки внутри ToolBar */
+
 QToolBar QToolButton {
     background-color: #2d2d2d;
     color: #cccccc;
@@ -78,13 +78,13 @@ QToolBar QToolButton {
     font-size: 12px;
 }
 
-QToolBar QToolButton:hover { /* Наведение мыши на кнопку */
+QToolBar QToolButton:hover { 
     background-color: #3e3e3e;
     color: #ffffff;
     border-color: #555555;
 }
 
-/* Самое важное для лабораторной: вид активного инструмента */
+
 QToolBar QToolButton:checked { 
     background-color: #007acc;
     color: #ffffff;
@@ -96,7 +96,7 @@ QToolBar QToolButton:pressed {
     background-color: #005a9e;
 }
 
-/* Разделитель на панели инструментов */
+
 QToolBar::separator {
     width: 1px;
     background-color: #444444;
