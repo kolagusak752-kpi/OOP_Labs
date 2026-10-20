@@ -280,7 +280,7 @@ QToolBar::separator {
     <string>Еліпс</string>
    </property>
    <property name="toolTip">
-    <string>малювання еліпса</string>
+    <string>Малювання еліпса</string>
    </property>
   </action>
   <action name="point">
@@ -299,7 +299,7 @@ QToolBar::separator {
     <string>Назад</string>
    </property>
    <property name="toolTip">
-    <string>відмінити останню дію</string>
+    <string>Відмінити останню дію</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Z</string>
@@ -313,7 +313,7 @@ QToolBar::separator {
     <string>Колір</string>
    </property>
    <property name="toolTip">
-    <string>вибрати колір</string>
+    <string>Вибрати колір</string>
    </property>
    <property name="menuRole">
     <enum>QAction::MenuRole::NoRole</enum>
