@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FiguresTable</class>
+ <widget class="QDialog" name="FiguresTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>951</width>
+    <height>624</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QTableWidget {
+    background-color: #ffffff;
+    alternate-background-color: #f9f9f9;
+    gridline-color: #e0e0e0;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    selection-background-color: #3b82f6;
+    selection-color: white;
+}
+QHeaderView::section {
+    background-color: #f1f5f9;
+    color: #334155;
+    padding: 6px;
+    border: none;
+    border-bottom: 2px solid #cbd5e1;
+    font-weight: bold;
+}
+QTableWidget::item {
+    padding: 6px;
+    color: #1e293b;
+}
+QPushButton {
+    background-color: #ff4c4c;
+    color: white;            
+    border: none;              
+    border-radius: 5px;       
+    padding: 8px 16px;         
+    font-size: 14px;         
+    font-weight: bold;         
+}
+
+
+QPushButton:hover {
+    background-color: #ff1c1c;
+}
+
+
+QPushButton:pressed {
+    background-color: #cc0000;
+}
+
+
+QPushButton:disabled {
+    background-color: #ffb3b3; 
+    color: #f2f2f2;
+}</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>951</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Назва</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>x1</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>y1</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>x2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>y2</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="deleteButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>0</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>delete</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

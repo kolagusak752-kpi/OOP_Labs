@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 102 102" width="20" height="20">
+  <defs>
+    <g id="figures-row">
+      <!-- 1. Точка (теперь маленькая и аккуратная) -->
+      <rect x="11.5" y="11.5" width="2" height="2" fill="white" />
+      
+      <!-- 2. Линия (более тонкая) -->
+      <line x1="30" y1="20" x2="45" y2="5" stroke="white" stroke-width="4" stroke-linecap="round" />
+      
+      <!-- 3. Эллипс (с тонкими краями) -->
+      <ellipse cx="62.5" cy="12.5" rx="7" ry="4" fill="none" stroke="white" stroke-width="4" />
+      
+      <!-- 4. Прямоугольник (тонкие стенки) -->
+      <rect x="81" y="8" width="12" height="9" fill="none" stroke="white" stroke-width="4" />
+    </g>
+  </defs>
+
+  <!-- Сетка таблицы 4x4 (толщина линий уменьшена до 2) -->
+  <path d="M 0 0 h 100 v 100 h -100 Z 
+           M 25 0 v 100 M 50 0 v 100 M 75 0 v 100 
+           M 0 25 h 100 M 0 50 h 100 M 0 75 h 100" stroke="white" stroke-width="4" fill="none" />
+
+  <!-- Отрисовка 4 строк -->
+  <use href="#figures-row" x="0" y="0" />
+  <use href="#figures-row" x="0" y="25" />
+  <use href="#figures-row" x="0" y="50" />
+  <use href="#figures-row" x="0" y="75" />
+</svg>
