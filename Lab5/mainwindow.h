@@ -42,11 +42,14 @@ private slots:
 
     void onShapeDeletedFromTable(int index);
 
-    void loadShapesFromFile();
+    void on_uploadFile_triggered();
+
 private:
     Ui::MainWindow *ui;
     FiguresTable* figuresTable;
     MainWidget* widget;
+    std::string currentFilePath = "../../shapesObjectData.txt";
+    bool loadShapesFromFile(std::string path);
 };
 
 

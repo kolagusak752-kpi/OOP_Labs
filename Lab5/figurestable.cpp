@@ -73,6 +73,10 @@ void FiguresTable::on_deleteButton_clicked() {
     for (int row : rows) {
         ui->tableWidget->removeRow(row);
         emit shapeDeleted(row);
+    }
 }
+
+void FiguresTable::clear() {
+    ui->tableWidget->setRowCount(0);
 }
 

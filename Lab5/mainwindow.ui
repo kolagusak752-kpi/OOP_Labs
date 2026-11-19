@@ -103,6 +103,34 @@ QToolBar::separator {
     margin: 4px 6px;
 }
 
+QMessageBox {
+    background-color: #2b2b2b;
+}
+
+QMessageBox QLabel {
+    color: #ffffff;
+    font-size: 13px;
+    background-color: transparent;
+}
+
+QMessageBox QPushButton {
+    background-color: #3c3f41;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 5px 18px;
+    min-width: 60px;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #4c5052;
+    border-color: #777777;
+}
+
+QMessageBox QPushButton:pressed {
+    background-color: #222222;
+}
+
 
 </string>
   </property>
@@ -222,6 +250,7 @@ QToolBar::separator {
    <addaction name="cube"/>
    <addaction name="lineOO"/>
    <addaction name="figurestable"/>
+   <addaction name="uploadFile"/>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -236,6 +265,7 @@ QToolBar::separator {
     <property name="title">
      <string>Файл</string>
     </property>
+    <addaction name="uploadFile"/>
     <addaction name="figurestable"/>
     <addaction name="back"/>
    </widget>
@@ -362,6 +392,17 @@ QToolBar::separator {
    </property>
    <property name="toolTip">
     <string>Вивести список створених фігур</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="uploadFile">
+   <property name="text">
+    <string>Завантажити файл</string>
+   </property>
+   <property name="toolTip">
+    <string>завантажити файл з фігурами у програму</string>
    </property>
    <property name="menuRole">
     <enum>QAction::MenuRole::NoRole</enum>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>951</width>
-    <height>624</height>
+    <width>648</width>
+    <height>602</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -65,9 +65,9 @@ QPushButton:disabled {
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>50</y>
-     <width>951</width>
-     <height>571</height>
+     <y>60</y>
+     <width>651</width>
+     <height>541</height>
     </rect>
    </property>
    <column>
@@ -99,8 +99,8 @@ QPushButton:disabled {
   <widget class="QPushButton" name="deleteButton">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>0</y>
+     <x>10</x>
+     <y>10</y>
      <width>131</width>
      <height>41</height>
     </rect>

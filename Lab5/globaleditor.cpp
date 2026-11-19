@@ -121,3 +121,11 @@ void GlobalEditor::addShape(Shape* shape) {
         shapeCount++;
     }
 }
+
+void GlobalEditor::clear() {
+    for(int i = 0; i < shapeCount; i++) {
+        delete shapes[i];
+        shapes[i] = nullptr;
+    }
+    shapeCount = 0;
+}

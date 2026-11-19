@@ -15,6 +15,7 @@ public:
 
     void add(QString name, int x1, int y1, int x2, int y2);
     void removeLast();
+    void clear();
 
 private:
     Ui::FiguresTable *ui;

@@ -27,6 +27,7 @@ public:
     void setCurrentColor(QColor c);
     void syncSelection(QList<int> selectedIndexes);
     void addShape(Shape* shape);
+    void clear();
 
     Shape* getLastShape();
 
